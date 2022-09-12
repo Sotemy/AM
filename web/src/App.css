@@ -1,0 +1,40 @@
+.App {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    /* border: 10px solid greenyellow; */
+    display: flex;
+    align-items: center;
+}
+
+.centered-element {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    /* border: 0.05em solid red; */
+
+}
+
+.side {
+    display: inline-block;
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 50%;
+    /* border: 0.05em solid red; */
+
+}
+
+.Nav{
+    display: flex;
+    justify-content: center;
+}
+
+.auth_button{
+    margin-right: 1%
+}
+
+.form{
+    text-align:start
+}
